@@ -2,5 +2,5 @@
   "autonomy": 6,
   "departure": "Tattoine",
   "arrival": "Endor",
-  "routes_db": "universe.db"
+  "routes_db": "/Users/leo/universe.db"
 }
