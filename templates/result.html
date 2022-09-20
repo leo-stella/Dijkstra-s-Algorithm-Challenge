@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Star Wars Result</title>
+    <link rel="stylesheet" href="static/styles/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="static/mil-falcon.jpeg" alt="millennium falcon" style="width:100%">
+        <div class="centered">
+            <div> The chance that Millennium Falcon saves the galaxy is : </div>
+            <p class="percent">{{capture_prob}} %</p>
+            <br><br>
+            <form action="http://localhost:5000/upload">
+                <input type="submit" value="Top Page" class = "upload-btn" />
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
